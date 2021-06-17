@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-17T13:28:46 EET" name="Default suite" finished-at="2021-06-17T13:28:59 EET" duration-ms="12649">
+    <groups>
+      <group name="Regression">
+        <method signature="TestNGParameters.OpenFace()[pri:1, instance:maven.selenium.TestNGParameters@9573584]" name="OpenFace" class="maven.selenium.TestNGParameters"/>
+        <method signature="TestNGParameters.OpenUdemy()[pri:0, instance:maven.selenium.TestNGParameters@9573584]" name="OpenUdemy" class="maven.selenium.TestNGParameters"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-06-17T13:28:46 EET" name="Default test" finished-at="2021-06-17T13:28:59 EET" duration-ms="12649">
+      <class name="maven.selenium.TestNGParameters">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:maven.selenium.TestNGParameters@9573584]" started-at="2021-06-17T13:28:46 EET" name="StartDriver" finished-at="2021-06-17T13:28:53 EET" duration-ms="7034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="OpenUdemy()[pri:0, instance:maven.selenium.TestNGParameters@9573584]" started-at="2021-06-17T13:28:53 EET" name="OpenUdemy" finished-at="2021-06-17T13:28:57 EET" duration-ms="3881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUdemy -->
+        <test-method signature="OpenFace()[pri:1, instance:maven.selenium.TestNGParameters@9573584]" started-at="2021-06-17T13:28:57 EET" name="OpenFace" finished-at="2021-06-17T13:28:59 EET" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFace -->
+      </class> <!-- maven.selenium.TestNGParameters -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

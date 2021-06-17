@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="17569" started-at="2021-06-17T13:41:51 EET" finished-at="2021-06-17T13:42:09 EET">
+    <groups>
+      <group name="Regression">
+        <method signature="TestNGParameters.OpenFace()[pri:1, instance:maven.selenium.TestNGParameters@2f177a4b]" name="OpenFace" class="maven.selenium.TestNGParameters"/>
+        <method signature="TestNGParameters.OpenUdemy()[pri:0, instance:maven.selenium.TestNGParameters@2f177a4b]" name="OpenUdemy" class="maven.selenium.TestNGParameters"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Surefire test" duration-ms="17569" started-at="2021-06-17T13:41:51 EET" finished-at="2021-06-17T13:42:09 EET">
+      <class name="maven.selenium.TestNGParameters">
+        <test-method status="PASS" signature="StartDriver(java.lang.String)[pri:0, instance:maven.selenium.TestNGParameters@2f177a4b]" name="StartDriver" is-config="true" duration-ms="3918" started-at="2021-06-17T13:41:51 EET" finished-at="2021-06-17T13:41:55 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="OpenUdemy()[pri:0, instance:maven.selenium.TestNGParameters@2f177a4b]" name="OpenUdemy" duration-ms="7945" started-at="2021-06-17T13:41:55 EET" finished-at="2021-06-17T13:42:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUdemy -->
+        <test-method status="PASS" signature="OpenFace()[pri:1, instance:maven.selenium.TestNGParameters@2f177a4b]" name="OpenFace" duration-ms="1468" started-at="2021-06-17T13:42:03 EET" finished-at="2021-06-17T13:42:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFace -->
+        <test-method status="PASS" signature="OpenWhatsapp()[pri:0, instance:maven.selenium.TestNGParameters@2f177a4b]" name="OpenWhatsapp" duration-ms="3293" started-at="2021-06-17T13:42:05 EET" depends-on-methods="maven.selenium.TestNGParameters.OpenFace" finished-at="2021-06-17T13:42:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWhatsapp -->
+        <test-method status="PASS" signature="OpenTwitter()[pri:2, instance:maven.selenium.TestNGParameters@2f177a4b]" name="OpenTwitter" duration-ms="841" started-at="2021-06-17T13:42:08 EET" finished-at="2021-06-17T13:42:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTwitter -->
+      </class> <!-- maven.selenium.TestNGParameters -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
