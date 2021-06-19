@@ -39,6 +39,7 @@ public class TestNGParameters {
 
 		String udemy = "https://www.udemy.com/home/my-courses/learning/";
 		driver.navigate().to(udemy);
+		System.out.println("Running from jenkins");
 	}
 
 	//............................................................
