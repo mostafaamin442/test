@@ -67,8 +67,6 @@ public class TestNGParameters {
 	//............................................................
 
 	// dependency
-	//test dsads
-
 	@Test(dependsOnMethods = { "OpenFace" })
 	public void OpenWhatsapp() {
 
