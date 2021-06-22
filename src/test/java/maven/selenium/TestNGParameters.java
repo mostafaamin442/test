@@ -55,7 +55,7 @@ public class TestNGParameters {
 	//............................................................
 
 	// disable specific test case
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 
 	public void OpenTwitter() {
 
